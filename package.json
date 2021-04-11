@@ -7,14 +7,16 @@
     "build": "sui-bundler build",
     "start": "sui-bundler dev",
     "phoenix": "npx rimraf node_modules && npm i --cache-min=999999",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "static:upload": "SURGE_TOKEN=`node -e \"require('./.surgerc.json').token\"` SURGE_LOGIN=`node -e \"require('./.surgerc.json').user\"` surge -d cdn-wallabikev2.surge.sh ./src/statics"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@s-ui/bundler": "7",
-    "@s-ui/lint": "3"
+    "@s-ui/lint": "3",
+    "surge": "^0.23.0"
   },
   "dependencies": {
     "@s-ui/domain": "2",
@@ -22,7 +24,7 @@
     "@s-ui/js": "2",
     "react": "17",
     "react-dom": "17",
-    "react-router-dom": "5"    
+    "react-router-dom": "5"
   },
   "eslintConfig": {
     "extends": [
@@ -32,5 +34,15 @@
   "prettier": "./node_modules/@s-ui/lint/.prettierrc.js",
   "stylelint": {
     "extends": "./node_modules/@s-ui/lint/stylelint.config.js"
+  },
+  "config": {
+    "sui-bundler": {
+      "env": [
+        [
+          "CDN",
+          "https://cdn-wallabikev2.surge.sh"
+        ]
+      ]
+    }
   }
 }
