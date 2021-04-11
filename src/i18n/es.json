@@ -1,0 +1,17 @@
+{
+  "HEADER": {
+    "TITLE": "Blog Maxitrail"
+  },
+  "PAGE": {
+    "HOME" : {
+      "TITLE": "¿Y si te das un capricho?",
+      "SUBTITLE": "Encuentra eso que más quieres entre miles de productos"
+    },
+    "LIST" : {
+      "TITLE": "Listado de anuncios"
+    },
+    "UPLOAD" : {
+      "TITLE": "Sube tu anuncio"
+    }
+  }
+}
