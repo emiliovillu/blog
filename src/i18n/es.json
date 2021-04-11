@@ -1,11 +1,40 @@
 {
+  "ASIDE": {
+    "LINK": {
+      "DUCATI": {
+        "TEXT": "Ducati",
+        "URL": "https://www.ducati.com/es/es/motocicletas/multistrada/multistrada-1260-enduro"
+      },
+      "HIMALAYAN": {
+        "TEXT": "Himalayan",
+        "URL": "https://www.royalenfield.com/in/en/motorcycles/himalayan/"
+      },
+      "HONDA": {
+        "TEXT": "Honda",
+        "URL": "https://www.honda.es/motorcycles/range/adventure/crf1100l-africa-twin-adventure-sports/overview.html"
+      },
+      "SUZUKI": {
+        "TEXT": "Suzuki",
+        "URL": "https://moto.suzuki.es/motos/trail-sport-turismo/2021/v-strom-650xt-2021"
+      }
+    }
+  },
+  "FOOTER": {
+    "SOCIAL_LINK": {
+      "APP_STORE": "https://www.apple.com/app-store",
+      "FACEBOOK": "https://www.facebook.es",
+      "GOOGLE_PLAY": "https://play.google.com/store",
+      "INSTRAGRAM": "https://www.instagram.com"
+    }
+  },
   "HEADER": {
     "TITLE": "Blog Maxitrail"
   },
   "PAGE": {
     "HOME" : {
-      "TITLE": "¿Y si te das un capricho?",
-      "SUBTITLE": "Encuentra eso que más quieres entre miles de productos"
+      "TITLE": "El mundo de las Maxtrails",
+      "FIRST_POST_TEXT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum scelerisque nunc nec convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris felis felis, luctus sit amet suscipit eget, ultricies sit amet nulla. Morbi facilisis ex leo, at tincidunt orci aliquam ut. Fusce viverra orci vel metus elementum, eget rutrum nunc pretium. Nunc pellentesque maximus facilisis. Pellentesque malesuada egestas felis, id laoreet lectus sagittis et.",
+      "SECOND_POST_TEXT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum scelerisque nunc nec convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris felis felis, luctus sit amet suscipit eget, ultricies sit amet nulla. Morbi facilisis ex leo, at tincidunt orci aliquam ut. Fusce viverra orci vel metus elementum, eget rutrum nunc pretium. Nunc pellentesque maximus facilisis. Pellentesque malesuada egestas felis, id laoreet lectus sagittis et.. In porta arcu vitae mattis faucibus. Praesent quis placerat est. Ut tristique elit eu urna congue facilisis. Suspendisse tellus lectus, mattis sit amet molestie non, lacinia id risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent ut viverra neque. Nullam at nibh sed nibh tristique egestas eu et purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean in vestibulum augue.Sed egestas, nunc sed gravida vestibulum, nisi lacus dictum metus, at venenatis dolor odio sed turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus convallis scelerisque lorem id volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla a magna nunc. Quisque bibendum commodo volutpat. Vestibulum lobortis lacinia leo, nec bibendum orci rutrum vitae. Fusce sapien neque, mollis et ligula et, feugiat porttitor libero.Fusce vel sapien sapien. Morbi eleifend ullamcorper consequat. Vivamus eu imperdiet lacus. Duis luctus, nulla at tempor cursus, sapien justo malesuada odio, sollicitudin sollicitudin ipsum ligula et dolor. Aenean sed est et nisl aliquet bibendum quis ut dui. Mauris ac mauris vitae leo aliquet mollis ac nec odio. Aliquam eget mauris diam."
     },
     "LIST" : {
       "TITLE": "Listado de anuncios"
