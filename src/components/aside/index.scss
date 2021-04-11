@@ -1,0 +1,18 @@
+.wb-Aside {
+  display: none;
+
+  @media (min-width: $breakpoint-desktop) {
+    border-left: 1px solid $primary;
+    display: flex;
+    flex-direction: column;
+    margin-left: $m-xl;
+    padding: 16px;
+    width: 100vw;
+  }
+
+  &-link {
+    color: $secondary;
+    font-size: $fz-l;
+    text-decoration: none;
+  }
+}

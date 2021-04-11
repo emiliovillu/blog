@@ -1,0 +1,23 @@
+.wb-Footer {
+  background-color: $tertiary;
+  color: $white;
+  padding: $p-m;
+
+  &-container {
+    display: flex;
+    justify-content: space-around;
+
+    &Link {
+      display: none;
+    }
+
+    a {
+      color: $white;
+      text-decoration: none;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+}

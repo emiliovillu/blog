@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom'
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import {Header} from './components/header/index'
-// import {Footer} from './components/footer/index'
+import {Footer} from './components/footer/index'
 import {Home} from './pages/home/index'
 
 import Context from './context'
@@ -16,8 +16,7 @@ initI18n().then(i18n => {
         <>
           <Header />
           <Route path="/" exact component={Home} />
-          {/* <Prefooter />
-          <Footer /> */}
+          <Footer />
         </>
       </Router>
     </Context.Provider>,

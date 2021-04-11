@@ -13,6 +13,7 @@ $black: #0000;
 // --Spacing-- //
 
 // Margins
+$m-xl: 64px;
 $m-l: 32px;
 $m-m: 16px;
 $m-s: 8px;
@@ -32,9 +33,14 @@ $fz-l: 24px;
 $fz-m: 16px;
 $fz-s: 14px;
 
+// --BreakPoints-- //
+$breakpoint-tablet: 769px;
+$breakpoint-desktop: 1024px;
+
 // Pages
 @import './pages/home/index.scss';
 
 // Components
 @import './components/header/index.scss';
-// @import './components/footer/index.scss';
+@import './components/footer/index.scss';
+@import './components/aside/index.scss';

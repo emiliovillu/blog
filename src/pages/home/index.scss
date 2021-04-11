@@ -1,5 +1,6 @@
 .wb-Home {
-  margin: $m-l;
+  margin: $m-l $m-m;
+  display: flex;
 
   &-banner {
     background-color: $black;
@@ -10,11 +11,23 @@
     margin-bottom: $m-l;
 
     &Image {
-      height: 120px;
+      height: 60px;
+      @media (min-width: $breakpoint-tablet) {
+        height: 120px;
+      }
     }
   }
 
   &-carrusel {
     padding: $p-m;
+    margin-bottom: $m-m;
+    @media (min-width: $breakpoint-tablet) {
+      float: left;
+      width: 50%;
+    }
+  }
+
+  &-title {
+    text-align: center;
   }
 }
