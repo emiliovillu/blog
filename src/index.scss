@@ -1,0 +1,40 @@
+// Reset CSS
+body {
+  margin: 0;
+}
+// Theme Variables
+$primary: #f05454;
+$secondary: #30475e;
+$tertiary: #222831;
+$gray: #e8e8e8;
+$white: #ffffff;
+$black: #0000;
+
+// --Spacing-- //
+
+// Margins
+$m-l: 32px;
+$m-m: 16px;
+$m-s: 8px;
+$m-xs: 4px;
+
+//Paddings
+$p-xl: 64px;
+$p-l: 32px;
+$p-m: 16px;
+$p-s: 8px;
+
+// --Font-- //
+
+//Font-sizes
+$fz-xl: 32px;
+$fz-l: 24px;
+$fz-m: 16px;
+$fz-s: 14px;
+
+// Pages
+@import './pages/home/index.scss';
+
+// Components
+@import './components/header/index.scss';
+// @import './components/footer/index.scss';

@@ -1,0 +1,20 @@
+.wb-Home {
+  margin: $m-l;
+
+  &-banner {
+    background-color: $black;
+    border-radius: 8px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: $m-l;
+
+    &Image {
+      height: 120px;
+    }
+  }
+
+  &-carrusel {
+    padding: $p-m;
+  }
+}
