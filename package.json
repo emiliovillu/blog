@@ -7,7 +7,8 @@
     "build": "sui-bundler build",
     "start": "sui-bundler dev",
     "phoenix": "npx rimraf node_modules && npm i --cache-min=999999",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:domain:browser": "sui-test browser -P 'src/domain/test/**/*/*.js'",
+    "test:domain": "npm run test:domain:browser",
     "static:upload": "SURGE_TOKEN=`node -e \"require('./.surgerc.json').token\"` SURGE_LOGIN=`node -e \"require('./.surgerc.json').user\"` surge -d cdn-wallabikev2.surge.sh ./src/statics"
   },
   "keywords": [],
@@ -16,6 +17,8 @@
   "devDependencies": {
     "@s-ui/bundler": "7",
     "@s-ui/lint": "3",
+    "@s-ui/mockmock": "^1.12.0",
+    "@s-ui/test": "^4.18.0",
     "surge": "^0.23.0"
   },
   "dependencies": {
