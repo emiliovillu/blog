@@ -32,15 +32,9 @@
   },
   "PAGE": {
     "HOME" : {
-      "TITLE": "El mundo de las Maxtrails",
+      "TITLE": "The world of Maxitrails motorcycles",
       "FIRST_POST_TEXT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum scelerisque nunc nec convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris felis felis, luctus sit amet suscipit eget, ultricies sit amet nulla. Morbi facilisis ex leo, at tincidunt orci aliquam ut. Fusce viverra orci vel metus elementum, eget rutrum nunc pretium. Nunc pellentesque maximus facilisis. Pellentesque malesuada egestas felis, id laoreet lectus sagittis et.",
       "SECOND_POST_TEXT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum scelerisque nunc nec convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris felis felis, luctus sit amet suscipit eget, ultricies sit amet nulla. Morbi facilisis ex leo, at tincidunt orci aliquam ut. Fusce viverra orci vel metus elementum, eget rutrum nunc pretium. Nunc pellentesque maximus facilisis. Pellentesque malesuada egestas felis, id laoreet lectus sagittis et.. In porta arcu vitae mattis faucibus. Praesent quis placerat est. Ut tristique elit eu urna congue facilisis. Suspendisse tellus lectus, mattis sit amet molestie non, lacinia id risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent ut viverra neque. Nullam at nibh sed nibh tristique egestas eu et purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean in vestibulum augue.Sed egestas, nunc sed gravida vestibulum, nisi lacus dictum metus, at venenatis dolor odio sed turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus convallis scelerisque lorem id volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla a magna nunc. Quisque bibendum commodo volutpat. Vestibulum lobortis lacinia leo, nec bibendum orci rutrum vitae. Fusce sapien neque, mollis et ligula et, feugiat porttitor libero.Fusce vel sapien sapien. Morbi eleifend ullamcorper consequat. Vivamus eu imperdiet lacus. Duis luctus, nulla at tempor cursus, sapien justo malesuada odio, sollicitudin sollicitudin ipsum ligula et dolor. Aenean sed est et nisl aliquet bibendum quis ut dui. Mauris ac mauris vitae leo aliquet mollis ac nec odio. Aliquam eget mauris diam."
-    },
-    "LIST" : {
-      "TITLE": "Listado de anuncios"
-    },
-    "UPLOAD" : {
-      "TITLE": "Sube tu anuncio"
     }
   }
 }
