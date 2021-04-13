@@ -4,6 +4,8 @@
 
 # Blog MaxiTrails
 
+[Blog Maxitrails](https://blogmaxitrail.surge.sh/)
+
 To work with repository
 
 ```
