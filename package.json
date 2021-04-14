@@ -6,7 +6,7 @@
   "scripts": {
     "build": "sui-bundler build",
     "e2e:gui": "sui-test e2e --gui --noWebSecurity --baseUrl http://localhost:3000 -T10000 ",
-    "start": "sui-bundler dev -- --link-package /Users/emilio.villuendas/Desktop/personal/carrusel-package",
+    "start": "sui-bundler dev",
     "phoenix": "npx rimraf node_modules && npm i --cache-min=999999",
     "test:domain:browser": "sui-test browser -P 'src/domain/test/**/*/*.js'",
     "test:domain": "npm run test:domain:browser",

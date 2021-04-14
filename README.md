@@ -4,12 +4,16 @@
 
 # Blog MaxiTrails
 
-To work with repository
+To work with repository in development mode and see the changes in the package
 
 ```
-1. git clone https://github.com/emiliovillu/blog.git
-2. npm i
-3. npm run start
+1. git clone https://github.com/emiliovillu/blog.git ---> npm i
+2. git clone https://github.com/emiliovillu/carrusel-package.git ---> npm i
+3. npm run start -- --link-package <local path package>
+
+example:
+
+npm run start -- --link-package /Users/emilio.villuendas/Desktop/personal/carrusel-package
 ```
 
 Test Domain
