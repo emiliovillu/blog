@@ -15,7 +15,7 @@ To work with repository in development mode and see the changes in the package
 
 example:
 
-npm run start -- --link-package /Users/emilio.villuendas/Desktop/personal/carrusel-package
+npm run start -- --link-package /Users/emilio/Desktop/personal/carrusel-package
 ```
 
 Test Domain
