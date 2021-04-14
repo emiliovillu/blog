@@ -4,10 +4,9 @@
 
 # Blog MaxiTrails
 
-To work with repository in development mode and see the changes in the package
 [Blog Maxitrails](https://blogmaxitrail.surge.sh/)
 
-To work with repository in development mode and see the package changes
+To work with repository in development mode and see the changes in the package
 
 ```
 1. git clone https://github.com/emiliovillu/blog.git ---> npm i
